@@ -1,19 +1,14 @@
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
 
-    header,
-    main,
-    footer {
-        /* width: 90%; */
-        /* padding: 10%; */
-    }
-
     header {
         background: none;
+        padding-top: 0;
     }
 
     .banner-bg-container {
         background: none;
+        position: static;
     }
 
     .banner-container {
@@ -25,10 +20,9 @@
     .banner-text-container {
         width: 90%;
         margin: 0 auto;
-        padding: 3rem;
+        padding: 2rem;
         display: flex;
         flex-direction: column;
-        justify-content: center;
     }
 
     .banner-text-container h1 {
@@ -45,6 +39,58 @@
     .banner-btn-container {
         margin-top: 1.5rem;
     }
+    .btn-secondary{
+        margin-left: 1rem;
+    }
+
+    .banner-img-container {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 600px) and (max-width:992px) {
+    header {
+        background: none;
+        padding-top: 2rem;
+    }
+
+    .banner-bg-container {
+        background: none;
+    }
+
+    .banner-container {
+        width: 90%;
+        margin: 0 auto;
+        flex-direction: column;
+    }
+
+    .banner-text-container {
+        width: 100%;
+        margin: 0 auto;
+        padding: 3rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .banner-text-container h1 {
+        font-size: 3.5rem;
+    }
+
+    .banner-text-container p {
+        font-size: 2.5rem;
+        line-height: 3rem;
+        margin-top: 2rem;
+        /* 155.556% */
+    }
+
+    .banner-btn-container {
+        margin-top: 2rem;
+    }
 
     .banner-img-container {
         width: 90%;
@@ -52,18 +98,16 @@
         margin-left: 2.5rem;
     }
 
-    .banner-img-container img {
-        border: 1px solid tomato;
+    .btn-primary {
+        padding: 1.5rem 1.5rem;
+        font-size: 2rem;
     }
 
-
+    .btn-secondary {
+        padding: 1.5rem 1.5rem;
+        font-size: 2rem;
+    }
 }
-
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {}
-
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {}
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {}
