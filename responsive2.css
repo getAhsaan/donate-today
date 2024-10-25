@@ -1,0 +1,143 @@
+@media only screen and (max-width:576px) {
+
+    /* header section  */
+    header {
+        background-position: bottom;
+        background-size: 100%;
+        margin-bottom: 2rem;
+        padding-top: 1rem;
+        margin-top: 4rem;
+    }
+
+    .banner-bg-container {
+        background-position: bottom;
+        background-size: 100%;
+    }
+
+    .banner-container {
+        flex-direction: column;
+    }
+
+    .banner-text-container {
+        width: 100%;
+        padding: 0;
+    }
+
+    .banner-text-container h1 {
+        font-size: 2rem;
+    }
+
+    .btn-primary {
+        font-size: 1.1rem;
+        padding: 0.75rem;
+    }
+
+    .btn-secondary {
+        margin-left: 1rem;
+        font-size: 1.1rem;
+    }
+
+    .banner-img-container {
+        width: 100%;
+        margin-top: 2rem;
+    }
+
+    /* donate section  */
+    .donate-section {
+        margin-top: 4rem;
+    }
+
+    .donate-container {
+        width: 100%;
+    }
+
+    .donate-text-container h3 {
+        font-size: 2rem;
+    }
+
+    .donate-amount-container {
+        gap: 1rem;
+    }
+
+    .donate-amount-container span {
+        font-size: 24px;
+        padding: 32px 18px;
+    }
+
+    .donate-btn-container {
+        width: 100%;
+    }
+
+    input[type=number] {
+        width: 90%;
+    }
+
+    /* plan section  */
+    .plan-text-container {
+        margin-top: 4rem;
+    }
+
+    .plan-text-container h3 {
+        font-size: 2rem;
+    }
+
+    .plan-card-container {
+        flex-wrap: wrap;
+    }
+
+    /* homeless and life section  */
+    .homeless-container {
+        margin-top: 4rem;
+    }
+
+    .homeless-text-container h3,
+    .life-text-container h3 {
+        font-size: 1.8rem;
+    }
+
+    .homeless-container,
+    .life-container {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .homeless-container img,
+    .life-container img {
+        max-width: 100%;
+    }
+
+    .life-container {
+        flex-direction: column-reverse;
+        margin-top: 50px;
+    }
+
+    /* update section  */
+
+    .update-section {
+        margin-top: 4rem;
+    }
+
+    .update-section h3 {
+        font-size: 2rem;
+    }
+
+    .update-container {
+        width: 100%;
+    }
+
+    /* subscribe section  */
+    .subscribe-container {
+        padding: 0;
+    }
+
+    .subscribe-container input[type=email] {
+        width: 150px;
+    }
+
+    /* footer section  */
+    .footer-container {
+        margin-top: 4rem;
+    }
+
+
+}
