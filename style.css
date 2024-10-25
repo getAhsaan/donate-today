@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -8,6 +10,11 @@ body {
     min-height: 3950px;
     margin: 0 auto;
     border: 1px solid tomato;
+}
+
+main {
+    width: 80%;
+    margin: 0 auto;
 }
 
 /* banner section css  */
@@ -64,11 +71,11 @@ header {
     color: #707070;
     font-feature-settings: 'liga' off, 'clig' off;
     font-family: Poppins;
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-style: normal;
     font-weight: 400;
-    line-height: 1.8rem;
-    margin-top: 2rem;
+    line-height: 1.3rem;
+    margin-top: 1.5rem;
     /* 155.556% */
 }
 
@@ -118,4 +125,187 @@ header {
     margin-left: 2rem;
     cursor: pointer;
     /* 155.556% */
+}
+
+/*************** donate section css **************** */
+.donate-container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.donate-text-container,
+.plan-text-container {
+    width: 691px;
+    margin: 0 auto;
+}
+
+.donate-text-container h3,
+.plan-text-container h3 {
+    color: #121212;
+    text-align: center;
+    font-feature-settings: 'liga' off, 'clig' off;
+    font-family: Inter;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.donate-text-container p,
+.plan-text-container p {
+    color: #707070;
+    text-align: center;
+    font-feature-settings: 'liga' off, 'clig' off;
+    font-family: Poppins;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.3rem;
+    margin-top: 1.5rem;
+    margin-bottom: 3rem;
+    /* 155.556% */
+}
+
+.donate-amount-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1.375rem;
+    margin-bottom: 3rem;
+
+}
+
+.donate-amount-container span {
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #FAFAFA;
+
+    color: #707070;
+    text-align: center;
+    font-feature-settings: 'liga' off, 'clig' off;
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border: 2px solid transparent;
+    padding: 44px 24px;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.donate-amount-container span:hover {
+    border-radius: 5px;
+    border: 2px solid #FF5959;
+    background: #FEE;
+}
+
+.donate-btn-container {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+input[type=number] {
+    border: none;
+    border-bottom: 1px solid #DADADA;
+    padding: 0.75rem;
+    color: #FF5959;
+    text-align: center;
+    font-feature-settings: 'liga' off, 'clig' off;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    width: 100%;
+    appearance: none;
+    transition: all 0.5s;
+    margin-bottom: 2rem;
+    /* 155.556% */
+}
+
+input[type=number]::placeholder {
+    color: #B3B3B3;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+input[type=number]:focus {
+    outline: none;
+    border-bottom: 2px solid #FF5959;
+}
+
+
+/*************** plan section  **************/
+.plan-text-container {
+    margin-top: 130px;
+}
+
+.plan-card-container{
+    display: flex;
+    gap: 24px;
+    justify-content: space-between;
+    align-items: center;
+}
+.plan-card-container .card {
+    padding: 22px;
+    cursor: pointer;
+    border: 2px solid transparent;
+    transition: all 0.5s;
+}
+.plan-card-container .card:hover {
+    border: 2px solid #FF5959;
+}
+
+.plan-card-container .card:nth-child(1) {
+    border-radius: 5px;
+    background: rgba(79, 157, 166, 0.10);
+}
+
+.plan-card-container .card:nth-child(2) {
+    border-radius: 5px;
+    background: rgba(255, 89, 89, 0.10);
+}
+
+.plan-card-container .card:nth-child(3) {
+    border-radius: 5px;
+    background: rgba(112, 112, 112, 0.10);
+}
+
+.plan-card-container .card img {
+    width: 58.132px;
+    height: 49.772px;
+    flex-shrink: 0;
+}
+
+.plan-card-container .card h4 {
+    color: #121212;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 32px;
+    margin-bottom: 16px;
+}
+
+.plan-card-container .card p {
+    color: #707070;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
